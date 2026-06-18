@@ -4,7 +4,7 @@ import { queryClientInstance } from '@/lib/query-client'
 import { Toaster } from "@/components/ui/toaster"
 import { AuthProvider, useAuth } from '@/lib/AuthContext';
 import UserNotRegisteredError from '@/components/UserNotRegisteredError';
-import Home from './pages/Home';
+import Home from './pages/home';
 import PageNotFound from './lib/PageNotFound';
 
 const AuthenticatedApp = () => {
