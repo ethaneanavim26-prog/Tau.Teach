@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { QueryClientProvider } from '@tanstack/react-query'
 import { queryClientInstance } from '@/lib/query-client'
 import { Toaster } from '@/components/ui/toaster'
-import Home from './pages/home'
+import Home from "./pages/Home.jsx";
 
 export default function App() {
   return (
